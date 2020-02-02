@@ -38,7 +38,7 @@ export class MovieFactsComponent implements OnInit {
 
     
     // if(this.factList == []){
-    //   this.factList =[
+    //   this.factList =[-
     //       this.funFact,
     //       this.movieTitle
     //   ]

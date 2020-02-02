@@ -1,0 +1,10 @@
+<p>music works!</p>
+
+<button (click) = showAlbums()>Click to show Albums</button>
+
+<div *ngFor="let album of albums">
+    <h3>User ID: {{ album.userId }}</h3>
+    <h3>id: {{ album.id }}</h3>
+    <h3>Title: {{ album.title }}</h3>
+    <h3>Body: {{ album.body }}</h3>
+</div>

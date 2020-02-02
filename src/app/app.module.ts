@@ -7,6 +7,8 @@ import { MovieFactsComponent } from './movie-facts/movie-facts.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 
+import { AlbumsModule } from './albums/albums.module';
+
 @NgModule({
   declarations: [
     AppComponent,
